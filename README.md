@@ -57,8 +57,9 @@ The fine print (tested by running a real month of work through the filter — 23
 - Some of your best receipts already exist — work you finished but never measured. Go read the number.
 - Helping someone else score counts. Claim the assist, not their number.
 - Failed bets get receipts too. Never round up.
+- Put a read-by date on every open bet (when will the number be ripe?), sweep the overdue ones each time you write your weekly note, and celebrate the wins out loud where the team lives.
 
-Ask Claude for a self-review, brag doc, or promo packet and it assembles them from your receipts. Ask it for an **open-loops sweep** and it finds the receipts you already earned but never collected.
+Ask Claude for a self-review, brag doc, or promo packet and it assembles them from your receipts. Ask it for an **open-loops sweep** and it finds the receipts you already earned but never collected — and stays quiet about the ones whose numbers aren't ripe yet.
 
 ## Install
 

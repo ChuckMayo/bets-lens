@@ -118,6 +118,15 @@ Everything else is a one-liner:
 - "Merged" is not a receipt. Live and verified is.
 - Some of your best receipts already exist: work you finished but never
   measured. Go read the number.
+- Put a date on the loop, not a nag: when you open a bet, write down when
+  the number will be ripe, and read it then. A number read too early is
+  noise, and "check it someday" never fires.
+- The weekly note is also the sweep: before writing the three bullets,
+  scan for loops past their read-by date. A habit anchored to an existing
+  ritual survives; "periodically" doesn't.
+- Celebrate closes where the team lives. A win's impact sentence is
+  already written — post it. If closing loops never feels good, you'll
+  stop closing them. Failed bets get a nod too: "we found out for cheap."
 - No clean metric? Count things, claim scope ("first," "only," "across
   three teams"), or quote someone else — their sentence beats your
   adjective.
@@ -147,13 +156,18 @@ Everything else is a one-liner:
 - When work ships, remind them of the metric: what would we look at, and
   when, to close this bet at Measured?
 - When capturing the success metric at bet time, capture the current value
-  too. No baseline, no receipt.
+  too — no baseline, no receipt — and ask when the number will be ripe.
+  Record that read-by date next to the bet, sized to the metric's volume
+  (a low-traffic funnel needs weeks; a high-volume error rate needs days).
 - When a bet closes at Measured — or fails honestly — offer to draft the
   receipt: the entry above, with before/after and proof links, while the
-  evidence is fresh.
-- Periodically offer an open-loops sweep: bets with a baseline but no
-  after-number, changes merged but never verified live, metrics named but
-  never read. Closing these mints receipts from work already done.
+  evidence is fresh. If it's a win, also offer the celebration: the impact
+  sentence as a one-liner for wherever the team will actually see it.
+- When the user writes a weekly note, status update, or asks "what's the
+  update," run the open-loops sweep first: bets past their read-by date,
+  changes merged but never verified live, metrics named but never read.
+  Closing these mints receipts from work already done. Don't nag about
+  loops whose read-by date hasn't arrived.
 - When the user is writing a self-review, status update, brag doc, or
   promotion case, assemble it from receipts, one impact sentence each.
   Flag claims where nothing actually changed for anyone outside the code,
