@@ -8,7 +8,10 @@ description: >-
   substantive new work — even if they never say the word "bet." Also use it
   when the user asks "what's the bet," "how sure are we," "what's our level
   of knowing," "should we build X," or asks you to challenge or pressure-test
-  an idea, and when closing out shipped work ("did it work?").
+  an idea, and when closing out shipped work ("did it work?"). Also use it
+  when the user wants to quantify or present their impact — self-reviews,
+  brag docs, status updates, promotion cases — which are assembled from
+  closed bets.
 ---
 
 # Bets Lens
@@ -68,6 +71,64 @@ wins; the only loss is never finding out.
 commitment is for rated bets. Anything further out is shaping — and walking
 away from a shaped idea is a legitimate, cheap outcome, not a failure.
 
+## Receipts: closed bets are career evidence
+
+A bet closed at level 5 has a second life. "We believed X would cause Y; we
+shipped it; Y moved from A to B" is not just learning — it is exactly the
+evidence a manager, a client, or a promotion committee needs. Careers stall
+on legibility, not ability: the decision gets made in a room you're not in,
+from written evidence, and unrecorded wins don't exist there. The bets
+discipline produces the record as a side effect — if you keep it.
+
+**Capture the baseline at bet time.** The success metric named before
+shipping must include the *current* value. A "before" cannot be
+reconstructed after you've fixed it; fifteen minutes of measurement up front
+is what makes the eventual receipt real.
+
+**When a bet closes, write the receipt.** One ledger entry, while it's fresh:
+
+```
+WHAT     Rewrote retry logic in the payment worker
+BET      Fewer failed jobs → less on-call load (opened at level 2)
+BEFORE   ~40 failed jobs/day, each manually replayed
+AFTER    <2/day; zero pages from this queue in 3 weeks
+WORTH    ~5 eng-hours/week back; killed the noisiest alert
+PROOF    dashboard link · PR link · support's thank-you thread
+```
+
+Failed bets get receipts too — "we tested X, it didn't move Y, and we saved
+the quarter it would have cost" is real impact, honestly stated.
+
+**Push each receipt up the ladder.** Activity ("attended the migration
+meetings") < output ("migrated 14 services") < outcome ("deploy time went
+from 45 to 9 minutes") < impact ("teams ship daily instead of weekly").
+Climb as high as the evidence honestly supports, and know which rung you're
+on. When there is no clean metric, there are still numbers: count things,
+claim scope ("first," "only," "across three teams"), use frequency ("a
+weekly problem, gone"), or quote someone else — a sentence from the support
+lead outranks any adjective you write about yourself.
+
+**Translate for the reader.** Builders price work in difficulty and
+elegance; the people deciding budgets and promotions price it in money,
+risk, users, and speed. The conversion has one shape, and it maps directly
+onto a closed bet:
+
+> "I did **X**, which moved **Y** from **A** to **B**, which mattered
+> because **Z**."
+
+X is the build, Y from A to B is the metric, and Z is the belief behind the
+original bet.
+
+**Share on a cadence, not at review time.** Receipts that arrive weekly —
+three bullets: shipped, moved, blocked — read as trajectory. The same
+receipts dumped the week before a review read as scrambling. A quarterly
+one-pager of the top three to five receipts, in the sentence form above, is
+the document a promotion case gets copied from.
+
+**Never round up.** Same rule as the levels: one inflated number, once
+discovered, converts every number you've ever reported into a question mark.
+Understate slightly and link the proof.
+
 ## How to apply this in conversation
 
 - When the user kicks off substantive new work, state the implied bet and
@@ -80,6 +141,15 @@ away from a shaped idea is a legitimate, cheap outcome, not a failure.
   execute well. Do not re-litigate.
 - When work ships, remind them of the metric: what would we look at, and
   when, to close this bet at level 5?
+- When capturing the success metric at bet time, capture the current value
+  too. No baseline, no receipt.
+- When a bet closes at level 5 — or fails honestly — offer to draft the
+  receipt: the ledger entry above, with before/after and proof links, while
+  the evidence is fresh.
+- When the user is writing a self-review, status update, brag doc, or
+  promotion case, assemble it from receipts: closed bets in
+  impact-sentence form, ranked by ladder rung. Flag anything stuck at
+  "output" and help find its outcome.
 - Skip the framing entirely for trivial work (typo fixes, small refactors,
   answering questions) — and skip it **silently**. Don't announce that the
   lens doesn't apply; just answer. Applying bet discipline to a one-line fix
