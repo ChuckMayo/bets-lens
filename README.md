@@ -37,19 +37,28 @@ The rating measures **evidence**, not confidence. A founder's conviction is a 1.
 
 If you say "build it anyway" — Claude builds it, well, and notes the metric that will tell you whether the bet paid off.
 
-## Receipts: bets pay twice
+## Receipts: when you find out, write it down
 
-A bet closed at level 5 — "we believed X would cause Y; we shipped it; Y moved from A to B" — is not just learning. It's exactly the evidence a manager or a promotion committee needs, and it's the evidence most people never write down. Careers stall on legibility, not ability: the decision happens in a room you're not in, from written evidence, and unrecorded wins don't exist there.
+The skill asks: *what are you betting on, and how will you know it worked?* Receipts add one move: **when you find out, write it down — and show people.** Promotions and renewals are decided in rooms you're not in, from written evidence. People with receipts don't have to argue.
 
-So the skill keeps the books:
+The whole mechanic:
 
-- **Baseline at bet time.** The success metric includes the *current* value — a "before" can't be reconstructed after you've fixed it.
-- **A receipt at close.** One ledger entry per closed bet: what, before, after, what it was worth, proof links. Failed bets get receipts too ("we tested X, it didn't move Y, we saved the quarter it would have cost").
-- **The impact sentence.** Every receipt translates as *"I did X, which moved Y from A to B, which mattered because Z"* — denominated in what the reader values (money, risk, users, speed), not what the builder values (difficulty, elegance).
-- **Shared on a cadence.** Three bullets a week to your manager beats a year of silence and a scramble before review season. A quarterly one-pager of your top receipts is the document a promotion case gets copied from.
-- **Never rounded up.** One inflated number, once caught, poisons all the rest. Understate and link proof.
+1. Before you start, write down today's number.
+2. When you finish, write down the new number.
+3. That before→after line is your receipt. Keep them all in one doc. Share a few now and then. Never exaggerate.
 
-Ask Claude for a self-review, brag doc, or promo packet and it assembles them from your receipts.
+When you share one, say it in one sentence, in terms the reader cares about: *"I did X, which moved Y from A to B, which mattered because Z."*
+
+The fine print (tested by running a real month of work through the filter — 233 merged PRs distilled to ~20 receipts):
+
+- Most work won't produce a receipt. Normal — a few good ones a quarter is plenty.
+- Tests, refactors, and tooling are the proof line of a receipt, not the receipt.
+- "Merged" is not a receipt. Live and verified is.
+- Some of your best receipts already exist — work you finished but never measured. Go read the number.
+- Helping someone else score counts. Claim the assist, not their number.
+- Failed bets get receipts too. Never round up.
+
+Ask Claude for a self-review, brag doc, or promo packet and it assembles them from your receipts. Ask it for an **open-loops sweep** and it finds the receipts you already earned but never collected.
 
 ## Install
 

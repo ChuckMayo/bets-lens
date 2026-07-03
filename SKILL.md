@@ -71,63 +71,62 @@ wins; the only loss is never finding out.
 commitment is for rated bets. Anything further out is shaping — and walking
 away from a shaped idea is a legitimate, cheap outcome, not a failure.
 
-## Receipts: closed bets are career evidence
+## Receipts: when you find out, write it down
 
-A bet closed at level 5 has a second life. "We believed X would cause Y; we
-shipped it; Y moved from A to B" is not just learning — it is exactly the
-evidence a manager, a client, or a promotion committee needs. Careers stall
-on legibility, not ability: the decision gets made in a room you're not in,
-from written evidence, and unrecorded wins don't exist there. The bets
-discipline produces the record as a side effect — if you keep it.
+The skill so far asks: *what are you betting on, and how will you know it
+worked?* Receipts add one move: **when you find out, write it down — and
+show people.** Promotions, renewals, and reviews are decided in rooms
+you're not in, from written evidence. People with receipts don't have to
+argue.
 
-**Capture the baseline at bet time.** The success metric named before
-shipping must include the *current* value. A "before" cannot be
-reconstructed after you've fixed it; fifteen minutes of measurement up front
-is what makes the eventual receipt real.
+The whole mechanic:
 
-**When a bet closes, write the receipt.** One ledger entry, while it's fresh:
+1. Before you start, write down today's number.
+2. When you finish, write down the new number.
+3. That before→after line is your receipt. Keep them all in one doc.
+   Share a few now and then. Never exaggerate.
+
+A receipt looks like:
 
 ```
 WHAT     Rewrote retry logic in the payment worker
-BET      Fewer failed jobs → less on-call load (opened at level 2)
 BEFORE   ~40 failed jobs/day, each manually replayed
 AFTER    <2/day; zero pages from this queue in 3 weeks
 WORTH    ~5 eng-hours/week back; killed the noisiest alert
 PROOF    dashboard link · PR link · support's thank-you thread
 ```
 
-Failed bets get receipts too — "we tested X, it didn't move Y, and we saved
-the quarter it would have cost" is real impact, honestly stated.
-
-**Push each receipt up the ladder.** Activity ("attended the migration
-meetings") < output ("migrated 14 services") < outcome ("deploy time went
-from 45 to 9 minutes") < impact ("teams ship daily instead of weekly").
-Climb as high as the evidence honestly supports, and know which rung you're
-on. When there is no clean metric, there are still numbers: count things,
-claim scope ("first," "only," "across three teams"), use frequency ("a
-weekly problem, gone"), or quote someone else — a sentence from the support
-lead outranks any adjective you write about yourself.
-
-**Translate for the reader.** Builders price work in difficulty and
-elegance; the people deciding budgets and promotions price it in money,
-risk, users, and speed. The conversion has one shape, and it maps directly
-onto a closed bet:
+And when you share one, say it in one sentence, in terms the reader cares
+about (money, risk, users, speed — not difficulty or elegance):
 
 > "I did **X**, which moved **Y** from **A** to **B**, which mattered
 > because **Z**."
 
-X is the build, Y from A to B is the metric, and Z is the belief behind the
-original bet.
+### The fine print
 
-**Share on a cadence, not at review time.** Receipts that arrive weekly —
-three bullets: shipped, moved, blocked — read as trajectory. The same
-receipts dumped the week before a review read as scrambling. A quarterly
-one-pager of the top three to five receipts, in the sentence form above, is
-the document a promotion case gets copied from.
+Everything else is a one-liner:
 
-**Never round up.** Same rule as the levels: one inflated number, once
-discovered, converts every number you've ever reported into a question mark.
-Understate slightly and link the proof.
+- Most work won't produce a receipt. Normal — a few good ones a quarter
+  is plenty, and a sparse ledger is what makes each line credible.
+- Tests, refactors, docs, and tooling are the PROOF line of a receipt,
+  not the receipt — unless a number outside the codebase moved.
+- "Merged" is not a receipt. Live and verified is.
+- Some of your best receipts already exist: work you finished but never
+  measured. Go read the number.
+- No clean metric? Count things, claim scope ("first," "only," "across
+  three teams"), or quote someone else — their sentence beats your
+  adjective.
+- Helping someone else score counts. Write down the assist — claim the
+  unblock, not their number.
+- No live users yet? Your receipt is what you learned, labeled honestly
+  ("harness-measured, 20 samples"). Failed bets get receipts too — "we
+  tested it, it didn't work, we saved the quarter it would have cost."
+- If nothing you touch *can* produce a receipt, that's a signal to change
+  what you work on, not to write harder.
+- Sharing is its own habit: three bullets a week to your manager, a
+  one-page top-five each quarter. Steady receipts read as trajectory;
+  a year of silence before a review reads as scrambling.
+- Never round up. One inflated number poisons all the rest.
 
 ## How to apply this in conversation
 
@@ -144,12 +143,15 @@ Understate slightly and link the proof.
 - When capturing the success metric at bet time, capture the current value
   too. No baseline, no receipt.
 - When a bet closes at level 5 — or fails honestly — offer to draft the
-  receipt: the ledger entry above, with before/after and proof links, while
-  the evidence is fresh.
+  receipt: the entry above, with before/after and proof links, while the
+  evidence is fresh.
+- Periodically offer an open-loops sweep: bets with a baseline but no
+  after-number, changes merged but never verified live, metrics named but
+  never read. Closing these mints receipts from work already done.
 - When the user is writing a self-review, status update, brag doc, or
-  promotion case, assemble it from receipts: closed bets in
-  impact-sentence form, ranked by ladder rung. Flag anything stuck at
-  "output" and help find its outcome.
+  promotion case, assemble it from receipts, one impact sentence each.
+  Flag claims where nothing actually changed for anyone outside the code,
+  and help find the number that did.
 - Skip the framing entirely for trivial work (typo fixes, small refactors,
   answering questions) — and skip it **silently**. Don't announce that the
   lens doesn't apply; just answer. Applying bet discipline to a one-line fix
