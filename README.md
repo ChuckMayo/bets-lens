@@ -1,6 +1,19 @@
 # bets-lens
 
-A [Claude Code](https://claude.com/claude-code) skill that makes Claude frame substantive work as an explicit **bet** with an honest certainty rating — **Opinion, Signal, Evidence, Validated, or Measured** — before building it.
+## Why
+
+Two failure modes kill product teams:
+
+1. **Building on vibes** — committing weeks of effort to something backed by one person's enthusiasm, dressed up as a roadmap item.
+2. **Never learning** — shipping things and moving on without ever checking whether the belief behind them was true.
+
+The bets lens is a lightweight discipline against both: make the belief explicit, rate the evidence honestly, prefer the cheapest test over the expensive build when evidence is thin, and always close the loop.
+
+Enthusiasm is not evidence.
+
+## How it Works
+
+`bets-lens` is a [Claude Code](https://claude.com/claude-code) skill that makes Claude frame substantive work as an explicit **bet** with an honest certainty rating — **Opinion, Signal, Evidence, Validated, or Measured** — before building it.
 
 Every roadmap item, feature, and plan is a bet whether or not anyone says so. This skill makes the bet visible:
 
@@ -95,17 +108,6 @@ Then register it in `~/.claude/settings.json`:
 ```
 
 The hook injects a one-line reminder on every prompt; the skill carries the full framework. They're complementary.
-
-## Why
-
-Two failure modes kill product teams:
-
-1. **Building on vibes** — committing weeks of effort to something backed by one person's enthusiasm, dressed up as a roadmap item.
-2. **Never learning** — shipping things and moving on without ever checking whether the belief behind them was true.
-
-The bets lens is a lightweight discipline against both: make the belief explicit, rate the evidence honestly, prefer the cheapest test over the expensive build when evidence is thin, and always close the loop.
-
-Enthusiasm is not evidence.
 
 ## License
 
