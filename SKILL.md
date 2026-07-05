@@ -217,3 +217,17 @@ version that rides every prompt, install the bundled UserPromptSubmit hook:
 The hook injects a one-line reminder on every prompt; the skill body carries
 the full framework. They are complementary — the hook keeps the lens present,
 the skill explains how to use it.
+
+<!-- self-learning:v1 -->
+## Self-Learning
+
+This skill improves through use — *curate, don't accumulate* (the Hermes rule). The durable
+playbook lives in this `SKILL.md`; provisional, still-being-validated notes live in
+`LEARNINGS.md` beside it.
+
+- **Read first.** At the start of a run, skim `LEARNINGS.md` (same directory) for notes relevant to what you're about to do.
+- **Record (gated).** After a non-trivial run, append a dated bullet to `LEARNINGS.md` *only if* a step here was wrong or missing, you found a better approach than what's written, the user corrected you, or the same friction showed up twice. Skip routine, uneventful runs — the loop is for signal, not a session log.
+- **Write it reusable.** Each note carries the trigger/context, what failed, what worked, and *why* — generalized so a future run benefits, not a one-off patch.
+- **Curate on write.** Read `LEARNINGS.md` before adding. Replace a stale or contradicted entry instead of appending a duplicate; delete what no longer holds.
+- **Verify before trusting.** Confirm a claimed fact against ground truth (the repo, a real command's output) before recording it as true.
+- **Promote.** Once a note has proven durable, fold it into this `SKILL.md` and delete it from `LEARNINGS.md`. `/skill-audit` performs this promotion + pruning sweep across all skills.
