@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bets Lens"
+  short_description: "Rate product bets before building"
+  default_prompt: "Use $bets-lens to pressure-test this product idea as an explicit bet."
